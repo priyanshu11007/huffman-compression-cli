@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build HuffmanCompression",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=c++17",
+                "main.cpp",
+                "Huffman.cpp",
+                "-o",
+                "huffman"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
